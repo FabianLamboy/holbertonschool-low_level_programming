@@ -1,2 +1,6 @@
 #!/bin/bash
-cat main.c | export CFILE=main.c
+cat main.c 
+export CFILE=main.c 
+./0-preprocessor
+tail c
+
