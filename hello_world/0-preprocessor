@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc cat main.c
+gcc "$CFILE" cat main.c
