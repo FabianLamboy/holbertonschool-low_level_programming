@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$CFILE" cat main.c
+gcc "$SCFILE" cat main.c | export CFILE=main.c
