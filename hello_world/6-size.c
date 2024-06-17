@@ -4,7 +4,7 @@
  * Description - Prints the size of various types
  * Return: Ends the script
  */
-int main(void)
+int main(char)
 {
 	printf("Size of char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
