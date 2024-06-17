@@ -1,6 +1,4 @@
 #!/bin/bash
+#include <studio.h>
 cat main.c 
-export CFILE=main.c 
-./0-preprocessor
-tail c
 
