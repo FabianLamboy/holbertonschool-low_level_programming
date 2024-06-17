@@ -1,3 +1,9 @@
 #!/bin/bash
+
 #include <studio.h>
-cat main.c
+
+int main (void)
+{
+	cat main.c ;
+	return(0) ;
+}
