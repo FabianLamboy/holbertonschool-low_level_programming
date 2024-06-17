@@ -1,2 +1,4 @@
-#!/bin/bash
-int puts("Programming is like building a multilingual puzzle" *str);
+include <stdio.h>
+{
+	int puts("Programming is like building a multilingual puzzle" *str);
+}
