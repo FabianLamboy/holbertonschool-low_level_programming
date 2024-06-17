@@ -1,2 +1,2 @@
 #!/bin/bash
-cat main.c
+cat main.c | export CFILE=main.c
