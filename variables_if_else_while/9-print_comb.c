@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
-*main - aaaaa
-*Description - aaaaaa
+*main - Prints all possible combinations
+*Description - of single-digit numbers
 *Return: Ends the code
 */
 int main(void)
 {
-return (0);
+	
+	return (0);
 }

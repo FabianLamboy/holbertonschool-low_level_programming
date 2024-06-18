@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *  main - aaaaaa
- *  Description - aaaaaaaa
+ *  main - Prints the alphabet
+ *  Description - without q and e
  *  Return: Ends the code
  */
 int main(void)
