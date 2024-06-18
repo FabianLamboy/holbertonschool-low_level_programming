@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Print the number within the variable
- * Description - The source code will print whether the number
+ * Description - The source code will print the number
  * Return: Ends the code
  */
 int main(void)
@@ -11,20 +11,18 @@ int main(void)
 	int n;
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-	printf("The number %d, \n");
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("The variable is positive\n");
 	}
-	else if (n < 0)
+	if (n < 0)
 	{
-		printf("is negative\n");
+		printf("The variable is negative\n");
 	}
-	else
+	if (n == 0)
 	{
-		printf("is zero\n");
+		printf("The variable is zero\n");
 	}
 	return (0);
 }
