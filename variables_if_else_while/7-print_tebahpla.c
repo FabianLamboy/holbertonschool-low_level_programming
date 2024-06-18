@@ -1,10 +1,15 @@
 #include <stdio.h>
 /**
-*main - aaaaa
-*Description - aaaaaa
+*main - Prints the alphabet
+*Description - in reverse
 *Return: Ends the code
 */
 int main(void)
 {
-return (0);
+	char c;
+
+	for (c = 'a'; c >= 'z'; ++c)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }
