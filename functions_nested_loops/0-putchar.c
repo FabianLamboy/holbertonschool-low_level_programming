@@ -1,14 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/*Declaration of _putchar*/
-int _putchar(char c);
-
+#include "main.h"
 /**
- * main - Prints
- * Description - Prints _putchar, followed
- * by a new line
- * Return: Ends the command
+ * main - Entry point
+ * Return: Always 0
  */
 int main(void)
 {
@@ -21,16 +14,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
-	return (0);
-}
-/**
- * _putchar - writes a character t stdout
- * @c: The character to print
- * Return: on success 1
- */
-int _putchar(char c)
-{
-	putchar(c);
 	return (0);
 }
