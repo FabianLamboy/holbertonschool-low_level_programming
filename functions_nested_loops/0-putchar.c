@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*Declaration of _putchar*/
 int _putchar(char c);
 
