@@ -32,5 +32,5 @@ int main(void)
 int _putchar(char c)
 {
 	putchar(c);
-	return (c);
+	return (0);
 }
