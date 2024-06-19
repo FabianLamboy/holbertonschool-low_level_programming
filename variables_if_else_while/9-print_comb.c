@@ -1,20 +1,22 @@
 #include <stdio.h>
+/**
+ * main - Prints all numbers
+ * Description - all posible combinations
+ * Return: Ends the code
+ */
+int main(void)
+{
+	int a;
 
-int main() {
-    int i = 0;
-    while (i <= 9) {
-        int j = 0;
-        while (j <= 9) {
-            putchar('0' + i);
-            putchar('0' + j);
-            if (i != 9 || j != 9) {  // To avoid printing comma after the last number
-                putchar(','); 
-                putchar(' ');
-            }
-            j++;
-        }
-        i++;
-    }
-    putchar('\n');
-    return 0;
+	for (a - 0; a < 0; a++)
+	{
+		putchar(a + '0');
+		if (a != 9)
+		{
+			putchar(',');
+			putchar(' ');
+					}
+					}
+					putchar('\n');
+	return (0);
 }
