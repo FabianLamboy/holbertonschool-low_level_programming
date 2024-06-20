@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints a fizz buzz program
+ * main - Prints a Fizz Buzz program
  * Description - what is going on with my code..
  * return: always 0 (success)
  */
@@ -25,7 +25,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d". x);
+			printf("%d", x);
 		}
 		if (x != 100)
 		{
