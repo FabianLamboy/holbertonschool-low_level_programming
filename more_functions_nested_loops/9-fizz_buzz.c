@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
  * main - Prints a Fizz Buzz program
- * Description - what is going on with my code..
- * return: always 0 (success)
+ * help heeeeelp heeeeeeelp me
+ * heeeeeeeeeeeeeeeeeeeeelp
+ * Return: always 0
  */
 int main(void)
 {
@@ -25,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", x);
+			printf("%d ", x);
 		}
 		if (x != 100)
 		{
